@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Parallax Scrolling</title>
+  <style>
+    .parallax {
+      /* The image used */
+      background-image: url("https://dl.fujifilm-x.com/global/products/cameras/x-t3/sample-images/ff_x_t3_002.JPG");
+
+      /* Set a specific height */
+      min-height: 500px;
+
+      /* Create the parallax scrolling effect */
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  </style>
+</head>
+
+<body>
+
+  <p><strong>Scroll Up and Down this page to see the parallax scrolling effect.</strong></p>
+
+  <div class="parallax"></div>
+
+  <div style="height:1000px;background-color:green;font-size:25px">
+    Scroll Up and Down this page to see the parallax scrolling effect. the photo of the cyclist remains at one position while the page scrolls up and down.
+  </div>
+
+</body>
+
+</html>
